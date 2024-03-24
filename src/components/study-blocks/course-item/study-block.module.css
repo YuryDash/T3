@@ -1,0 +1,38 @@
+.wrapper {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+.wrapper .imageBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .imageWrapper {
+  width: 144px;
+  height: 144px;
+}
+.wrapper .imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.wrapper .titleBlock {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-left: 18px;
+  font-family: Nunito, sans-serif;
+  font-weight: 800;
+  color: #39414B;
+}
+
+/*# sourceMappingURL=study-block.module.css.map */
