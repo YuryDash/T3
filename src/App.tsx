@@ -31,7 +31,7 @@ function App() {
     )
   } else {
     return (
-      <div>SOMESING WRONG</div>
+      <div>SOMETHING WRONG</div>
     )
   }
 
