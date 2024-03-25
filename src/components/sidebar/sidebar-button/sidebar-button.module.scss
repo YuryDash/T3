@@ -1,0 +1,27 @@
+.button {
+  cursor: pointer;
+  width: 240px;
+  font-weight: 800;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border: 1px solid transparent;
+
+  span {
+
+  }
+
+  &:hover {
+    color: var(--color-gray-hover);
+  }
+
+}
+.selected{
+  background-color: var(--color-selected-button);
+  border-radius: 16px;
+  color: var(--color-white);
+  &:hover{
+    color: var(--color-white);
+  }
+}

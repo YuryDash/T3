@@ -24,10 +24,7 @@ export function StudyBlocks({courseItems}: Props) {
     )
   })
   return (
-    <div style={{display: 'flex'}}>
-      <div>1231231212asdasdasd</div>
       <div className={s.gridContainer}>{mappedCourseItems}</div>
-    </div>
   );
 }
 

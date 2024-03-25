@@ -1,9 +1,8 @@
 import s from "./study-block.module.scss"
 import {CourseItemType} from "../../../service/study-block/study.type.ts";
 
-export function CourseItem({bgColor, id, tags, name, image}: CourseItemType) {
-  console.log(id + 'this is id')
-  console.log(tags + 'this is tags')
+export function CourseItem({bgColor, name, image}: CourseItemType) {
+
   return (
 
     <div className={s.wrapper}>

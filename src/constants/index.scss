@@ -1,0 +1,7 @@
+@use './colors.module';
+
+
+body {
+  font-family: Nunito, sans-serif;
+  color: var(--color-gray)
+}
